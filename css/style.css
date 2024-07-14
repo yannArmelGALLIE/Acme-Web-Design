@@ -29,6 +29,14 @@ ul{
    color: #ffffff;
 }
 
+.dark{
+    padding: 15px;
+    background: #35424a;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 
 /* Propriétés du de la barre de navigation | Header*/
 header{
@@ -133,6 +141,21 @@ header a:hover{
     width: 90px;
 }
 
+/*Sidebar*/
+
+
+aside#sidebar{
+    float:right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+/*Main-col*/
+
+article#main-col{
+    float: left;
+    width: 65%;
+}
 /* Footer */
 
 footer{
